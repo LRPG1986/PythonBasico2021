@@ -20,6 +20,6 @@ nom = str( input("¿Cuál es tu nombre?: "))
 gen = str( input("¿Cuál es tu sexo? Ingresa H o M: "))
 
 if (gen == "H" and gen == "h" and nom.lower() > "n") or (gen =="M" and gen =="m" and nom.lower() < "m"):
-    print("Pertences al grupo A")
+    print("Perteneces al grupo A")
 else:
     print("Perteneces al grupo B")
